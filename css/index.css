@@ -64,6 +64,13 @@ a{
 	height:55px;
 	padding:0 19px;
 }
+.one li a{
+	padding:14px 0 14px 0;
+}
+.one li a:hover{
+	background:#2756a4;
+	color: #fff;
+}
 .two{
 	width:180px;
 	float:right;
