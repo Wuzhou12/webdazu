@@ -125,7 +125,7 @@ a{
 	background-color: #ebeaea;
 	border-width: 1px;
 	border-color:#e2e2e2; 
-	background-image: url(../imagesyanjie/sousuo.png);
+	background-image: url(../images/imagesyanjie/sousuo.png);
 	background-repeat:no-repeat;
 }
 div.you{
@@ -181,7 +181,7 @@ p.four{
 	font-size:14px;
 }
 .fi li{
-	background-image: url(../imagesyanjie/fi22.png);
+	background-image: url(../images/imagesyanjie/fi22.png);
 	background-repeat: repeat-x;
 }
 .fi>li{
