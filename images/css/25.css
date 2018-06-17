@@ -77,50 +77,59 @@ a{
 }
 .banner{
 	width: 100%;
-	height: 813px;
+	height: 2430px;
 	background:#f9f9f9;
 	/* float:left; */
 }
 .banner1{
 	width: 1200px;
-	height:813px;
+	height:190px;
 	/* background:red; */
 	margin:0 auto;
 }
 .banner2{
 	width: 1200px;
-	height: 198px;
-	/* background:blue; */
+	height: 190px;
 }
 .banner2 p{
 	padding-top:18px;
 }
 .banner2 h3{
 	padding-top:67px;
+	padding-bottom:20px;
 }
 .banner3{
+	height: 2130px;
 	width: 1200px;
-	height: 615px;
 	background:#fff;
+	margin:0 auto;
 }
 .banner4{
-	width: 417px;
-	height: 615px;
+	width: 642px;
+	height: 2130px;
+	margin-left:50px;
+	/* background:red; */
 	float:left;
 }
-.banner4 h3{
-	padding-top:40px;
-	padding-bottom:20px;
-	padding-left:25px;
-}
 .banner4 h4{
-	padding-top:30px;
-	padding-bottom:20px;
-	padding-left:25px;
+	padding-bottom:15px;
+	padding-top:35px;
+	padding-left:115px;
 }
 .banner4 p{
-	line-height:30px;
-	padding-left:25px;
+	padding-bottom:14px;
+	padding-top:14px;
+	font-size:16px;
+	color:#2e2e2e;
+	font-family:"微软雅黑";
+	padding-left:115px;
+}
+.banner4 ul{
+	font-size:16px;
+	color:#2e2e2e;
+	font-family:"微软雅黑";
+	padding-left:115px;
+	padding-bottom:7.5px;
 }
 .banner5{
 	width: 46px;
@@ -219,55 +228,28 @@ a{
 	width: 84px;
 	height: 19px;
 }
-.nav{
-	width: 100%;
-	height: 835px;
-	background:#f9f9f9;
-}
-.nav1{
-	width:1200px;
-	height:550px;
-	background:#fff;
-	margin:0 auto;
-}
-.nav2{
-	width: 375px;
-	height: 550px;
-	background:#f2f2f2;
-	margin-left:20px;
+.banner6{
+	height: 2130px;
+	width: 460px;
 	float:left;
 }
-.nav2 img{
-	padding-top:8px;
-	padding-left:8px;
+.banner6 h4{
+	padding-bottom:15px;
+	padding-top:35px;
 }
-.nav2 p{
-	line-height:25px;
+.banner6 p{
+	padding-bottom:14px;
+	padding-top:14px;
 	font-size:16px;
+	color:#2e2e2e;
 	font-family:"微软雅黑";
-	color:#797979;
-	padding-left:24px;
 }
-.nav3{
-	height: 285px;
-	width: 1200px;
-	background:#fff;
-	margin:0 auto;
-}
-.nav4{
-	width: 375px;
-	height: 110px;
-	background:#2555a4;
-	margin-left:20px;
-	float:left;
-	margin-top:40px;
-}
-.nav4 p{
-	text-align:center;
-	padding-top:40px;
-	font-size:26px;
-	font-weight:bold;
-	color:#fff; 
+.banner6 ul{
+	font-size:16px;
+	color:#2e2e2e;
+	font-family:"微软雅黑";
+	/* padding-left:115px; */
+	padding-bottom:7.5px;
 }
 .blue{
 	width:100% ;

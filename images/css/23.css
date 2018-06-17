@@ -77,50 +77,25 @@ a{
 }
 .banner{
 	width: 100%;
-	height: 813px;
+	height: 1623px;
 	background:#f9f9f9;
 	/* float:left; */
 }
 .banner1{
 	width: 1200px;
-	height:813px;
+	height:536px;
 	/* background:red; */
 	margin:0 auto;
 }
 .banner2{
 	width: 1200px;
 	height: 198px;
-	/* background:blue; */
 }
 .banner2 p{
 	padding-top:18px;
 }
 .banner2 h3{
 	padding-top:67px;
-}
-.banner3{
-	width: 1200px;
-	height: 615px;
-	background:#fff;
-}
-.banner4{
-	width: 417px;
-	height: 615px;
-	float:left;
-}
-.banner4 h3{
-	padding-top:40px;
-	padding-bottom:20px;
-	padding-left:25px;
-}
-.banner4 h4{
-	padding-top:30px;
-	padding-bottom:20px;
-	padding-left:25px;
-}
-.banner4 p{
-	line-height:30px;
-	padding-left:25px;
 }
 .banner5{
 	width: 46px;
@@ -219,55 +194,36 @@ a{
 	width: 84px;
 	height: 19px;
 }
-.nav{
-	width: 100%;
-	height: 835px;
-	background:#f9f9f9;
-}
-.nav1{
-	width:1200px;
-	height:550px;
-	background:#fff;
-	margin:0 auto;
-}
-.nav2{
-	width: 375px;
-	height: 550px;
-	background:#f2f2f2;
-	margin-left:20px;
-	float:left;
-}
-.nav2 img{
-	padding-top:8px;
-	padding-left:8px;
-}
-.nav2 p{
-	line-height:25px;
-	font-size:16px;
-	font-family:"微软雅黑";
-	color:#797979;
-	padding-left:24px;
-}
-.nav3{
-	height: 285px;
+.banner3{
 	width: 1200px;
+	height: 338px;
+}
+.banner3 h4{
+	color:#2756a4;
+	padding-top:40px;
+	padding-left:28px;
+	padding-bottom:15px;
+}
+.banner3 p{
+	color:#a6a6a6;
+	padding-left:28px;
+}
+.banner4{
+	width: 1200px;
+	height: 993px;
 	background:#fff;
 	margin:0 auto;
 }
-.nav4{
-	width: 375px;
-	height: 110px;
-	background:#2555a4;
-	margin-left:20px;
-	float:left;
-	margin-top:40px;
+.banner4 h4{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:30px;
 }
-.nav4 p{
-	text-align:center;
-	padding-top:40px;
-	font-size:26px;
-	font-weight:bold;
-	color:#fff; 
+.banner4 p{
+	font-size:16px;
+	color:#484848;
+	padding-left:30px;
+	padding-bottom:10px;
 }
 .blue{
 	width:100% ;
