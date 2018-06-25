@@ -142,11 +142,12 @@ a{
 	background-color:white;
 	margin:0 auto;
 }
-div.you{
+ div.you{
 	position:relative;
-}
+} 
 div.you ul{
 	position:absolute;
+	text-align: center;
 	top:270px;
 	right: 80px;
 	height: 314px;
@@ -277,12 +278,11 @@ p.lan{
 	color:white;
 	line-height: 21px;
 } 
-.introduce ul{
-	height: 0px;
-	overflow: hidden;
-} 
-#introduce:hover + ul.liebiao1{
-	height: 500px;
+.introduce{
+	display: none;
+}
+p:hover+.introduce{
+	display: block;
 }
 .liebiao1 ul{
 	height:70px;

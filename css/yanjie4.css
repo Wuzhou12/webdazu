@@ -142,6 +142,7 @@ div.you{
 }
 div.you ul{
 	position:absolute;
+	text-align: center;
 	top:270px;
 	right: 80px;
 	height: 314px;
@@ -189,15 +190,17 @@ p.three{
 p.four{
 	font-size:14px;
 }
-.fi li{
+.fi{
 	background-image: url(../images/imagesyanjie/fi33.png);
-	background-repeat: repeat-x;
+}
+.fir{
+	padding-left: 45px;
 }
 .fi>li{
 	float: left;
 	margin-right: 60px;
 }
-.fi>li p{
+.fi>li{
 	font-size: 14px;
 	color:#ffffff;
 }
