@@ -20,6 +20,44 @@ a{
 	/* background:red; */
 	margin:0 auto;
 }
+.one{
+    cursor: pointer;/*鼠标样式*/
+    /*  position: fixed; *//*固定定位*/
+    left: 150px;
+    float:left;
+}
+.one li {
+    height: 55px;
+    width:80px;
+    line-height: 40px;
+    text-align: center;
+    /* background:#2756a4; */
+    padding:0 18px;
+    float:left;
+}
+.one>ul>li{
+    float: left; /*浮动*/
+    position: relative;/*相对定位*/
+}
+.one>ul>li ul {
+    display: none; /*隐藏消失*/
+    position: absolute;/*绝对定位*/
+    left: 0;
+    top: 55px;
+    background:blue;
+    /* padding-top: 10px; *//*空白间隙*/
+}
+	/* 状态样式 */
+.one li:hover{
+    background:#2756a4;
+}
+.one>ul>li:hover ul {
+    display: block
+}
+.one li:hover>a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
 .logo{
 	float:left;
 }
@@ -59,7 +97,7 @@ a{
 	margin:0 auto;
 	/* background:red; */
 }
-.one li{
+/* .one li{
 	float:left;
 	height:55px;
 	padding:0 19px;
@@ -70,16 +108,114 @@ a{
 .one li a:hover{
 	background:#2756a4;
 	color: #fff;
-}
+} */
 .two{
 	width:180px;
 	float:right;
+	padding-top:10px;
 }
 .banner{
 	width: 1518px;
 	height: 510px;
 	background:url(../images/banner3.jpg);
 	margin:0 auto;
+}
+.banner5{
+	width: 46px;
+	height: 309px;
+	position: fixed;
+    top: 138px;
+    right:80px;
+}
+.z1{
+	width: 84px;
+	height: 80px;
+	background-color:#8d8d8d;　
+}
+.z11{
+	width: 41px;
+	height: 38px;
+	margin-left: 22px;
+	padding-top: 12px;
+	margin-bottom: 3px;
+	
+}
+.z12{
+	font-family:"微软雅黑";
+	font-size: 14px;
+	margin-left: 15px;
+	width: 56px;
+	height: 14px;
+	color: #e6e6e6;
+}
+.z2{
+	width: 84px;
+	height: 2px;　
+}
+.z2 img{
+	vertical-align: top;
+}
+.z3{
+	width: 84px;
+	height: 79px;
+	background-color:#b0b0b0;
+}
+.z31{
+	padding-top: 14px;
+	margin-left: 23px;
+	width: 39px;
+	height: 33px;
+	margin-bottom: 5px;
+}
+.z32{
+	font-family:"微软雅黑";
+	font-size: 14px;
+	color: #e6e6e6;
+	margin-left: 14px;
+	width: 56px;
+	height: 14px;
+}
+.z4{
+	width: 84px;
+	height: 3px;
+}
+.z4 img{
+	vertical-align: top;
+}
+.z5{
+	width: 84px;
+	height: 79px;
+	background-color:#b0b0b0;
+}
+.z51{
+	padding-top: 12px;
+	margin-left: 19px;
+	width: 46px;
+	height: 37px;
+	margin-bottom: 3px;
+}
+.z52{
+	font-family:"微软雅黑";
+	font-size: 14px;
+	color: #e6e6e6;
+	margin-left: 14px;
+	width: 56px;
+	height: 14px;
+}
+.z6{
+	background-color:#b0b0b0;
+	width: 84px;
+	height: 43px;
+}
+.z61{
+	padding-top: 21px;
+	margin-left: 29px;
+	width: 26px;
+	height: 15px;
+}
+.z7{
+	width: 84px;
+	height: 19px;
 }
 .banner1{
 	float:right;
