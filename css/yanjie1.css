@@ -109,6 +109,12 @@ a{
 .header4 li a{
 	color: #434343; 
 }
+.header4 li:hover{
+	background-color: #2756a4;
+}
+.header a:hover{
+	color:#ffffff;
+}
 .header4 li.chan{
 	width: 78px;
 	height: 50px;
@@ -133,6 +139,7 @@ div.you{
 }
 div.you ul{
 	position:absolute;
+	text-align: center;
 	top:270px;
 	right: 80px;
 	height: 314px;
